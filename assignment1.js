@@ -1,16 +1,20 @@
 // 1. Take two numbers a,b and print the sum, difference, product, quotient and modulus of a & b.
 let a=10;
 const b=20;
-console.log("add=",a+b)
+console.log("sum = ",a+b)
+console.log("difference = ",a-b)
+console.log("product = ",a*b)
+console.log("quotient = ",a/b)
+console.log("modulus = ",a%b)
+
 
 // 2. Take two numbers and only print the integer part when a is divided by b.
 let d=10;
 var b1=3;
-if (d%b==0){
-    console.log(d,"its divided by b1")}
-else{
-    console.log(d,"its not divided by b1")
-}    
+if(d%b1==0){
+    console.log(d/b1)
+}
+  
 
 // 3. Take two numbers a,b and print the exponential power of the first number raised by the second.
 let m=3;
